@@ -37,8 +37,8 @@ commands = {
 		UP_INTERFACE
 	],
 	'normal': [
-		network_manager('start'),
 		DOWN_INTERFACE,
+		network_manager('start'),
 		set_interface_type('type managed'),
 		UP_INTERFACE
 	]
